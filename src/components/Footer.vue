@@ -1,19 +1,23 @@
 <template>
   <div id="footer" class="container-fluid">
-    <div class="logo">
-      <img src="@/assets/img/logo_white.png" alt="logo图">
-    </div>
-    <p class="title">公司企业网站模板</p>
+<!--    <div class="logo">
+      <img src="@/assets/img/logo2.png" alt="logo图">
+    </div>-->
+<!--    <p class="title">广州市诚希信息技术有限公司</p>
     <p class="address_tel_fax">
-      <span>地址：公司地址公司地址公司地址公司地址</span>
+      <span>地址：广州市番禺区南村镇博旺街18号1001房</span>
       <span>Tel：888-888-888</span>
       <span>Fax：8888-88888888</span>
-    </p>
-    <p class="email_wx">
+    </p>-->
+<!--    <p class="email_wx">
       <span>邮箱：liyunkun_11@163.com</span>
       <span>公司微信号：ilyk_gg</span>
-    </p>
-    <p class="copy">Copyright &copy; 2018 - 2019 公司名称公司名称</p>
+    </p>-->
+    <p class="copy">公司地址: 广州市番禺区南村镇博旺街18号1001房</p>
+    <p class="copy">Copyright &copy;2022 广州市诚希信息技术有限公司</p>
+    <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="color: #d3d3d3;"
+    >&nbsp;&nbsp;粤ICP备2021124324号-1&nbsp;</a
+    >
   </div>
 </template>
 <script>

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="container-fuild ContactUs-container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-10">
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">姓名</label>
@@ -37,9 +37,9 @@
               </div>
             </form>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-6">
+<!--          <div class="col-xs-12 col-sm-12 col-md-6">
             <div id="map" class="wow zoomIn"></div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -47,15 +47,14 @@
 </template>
 <script>
 import { WOW } from 'wowjs'
-import BMap from "BMap";
 export default {
   name: "ContactUs",
   data() {
     return {};
   },
   mounted() {
-    var map = new BMap.Map("map"); // 创建地图实例
-    var point = new BMap.Point(116.301841,40.156506); // 创建点坐标
+    /*var map = new BMap.Map("map"); // 创建地图实例
+    var point = new BMap.Point(113.38677,23.0095); // 创建点坐标
     map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
     var marker = new BMap.Marker(point); // 创建标注
@@ -69,9 +68,9 @@ export default {
       "我的家",
       opts
     ); // 创建信息窗口对象
-    map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
-    var wow = new WOW();
-    wow.init();
+    map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口*/
+    /*var wow = new WOW();
+    wow.init();*/
   }
 };
 </script>

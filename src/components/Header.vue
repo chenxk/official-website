@@ -1,7 +1,7 @@
 <template>
   <!-- 头部整体盒子 -->
   <div id="header" class="container-fuild">
-    <!-- 头部顶部 -->
+    <!-- 头部顶部
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
@@ -15,11 +15,12 @@
         </div>
       </div>
     </div>
+    -->
     <!-- 电脑导航 -->
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png">
+        <img src="@/assets/img/logo2.png">
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -45,7 +46,7 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo">
+        <img class="center-block" src="@/assets/img/logo2.png" alt="logo">
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -92,7 +93,7 @@ export default {
           path: "/",
           children: []
         },
-        {
+        /*{
           name: "软件产品",
           path: "/software",
           children: [
@@ -105,17 +106,17 @@ export default {
               path: "/software/bigData"
             }
           ]
-        },
+        },*/
         {
           name: "相关服务",
           path: "/service",
           children: []
         },
-        {
+        /*{
           name: "新闻动态",
           path: "/newsinformation",
           children: []
-        },
+        },*/
         {
           name: "公司介绍",
           path: "/companyintroduction",
@@ -180,8 +181,8 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
-  height: 45px;
+  width: 160px;
+  height: 60px;
   position: absolute;
   top: 0;
   left: 0;
@@ -291,8 +292,8 @@ export default {
   }
   /* 导航栏logo图片 */
   #header .header-nav-m .header-nav-m-logo img {
-    width: 95px;
-    height: 45px;
+    width: 160px;
+    height: 60px;
     position: absolute;
     top: 0;
     left: 0;

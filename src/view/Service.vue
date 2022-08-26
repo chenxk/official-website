@@ -1,12 +1,13 @@
 <template>
     <div id="Service">
         <div class="container text-center">
+            <h3>&nbsp;</h3>
             <h3>我们的服务</h3>
             <p style="color:#b2b2b2">The Best Service You Never See</p>
         </div>
         <div class="container">
             <div class="Service-container row">
-                <div class="Service-item col-xs-12 col-sm-6 col-md-3 wow slideInUp" 
+                <div class="Service-item col-xs-12 col-sm-6 col-md-3 wow slideInUp"
                 v-for="(item,index) in serviceList" :key="index" @click="ServiceClick(item.id)">
                     <div class="Service-item-wrapper">
                         <div class="Service-item-top">
@@ -61,12 +62,12 @@ export default {
     },
     methods:{
         ServiceClick(id){
-            this.$router.push({
+            /*this.$router.push({
                 name: 'servicedetail',
                 params: {
                     id: id
                 }
-            })
+            })*/
         }
     }
 }
